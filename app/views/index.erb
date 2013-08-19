@@ -1,0 +1,17 @@
+
+<h1>Explore Sinatra</h1>
+<form action="/" method="get">
+  Hey input something for the get route: <br>
+  <%= erb :_cool_form, :layout => false %>
+
+</form>
+
+<form action="/" method="post">
+  Hey input something for the post route: <br>
+  <%= erb :_cool_form, :layout => false %>
+
+</form>
+
+<%= @form_input if @form_input %>
+  
+
